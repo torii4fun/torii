@@ -87,19 +87,7 @@ function BookClanPage({
           </div>
         )}
 
-        {/* Telegram — members only, no hint to non-members */}
-        {clan.telegramGroup && isMember && (
-          <div className="social-row">
-            <a
-              className="social-link"
-              href={`https://t.me/${clan.telegramGroup.replace('t.me/', '')}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Telegram →
-            </a>
-          </div>
-        )}
+
 
         {/* Stats */}
         <div className="clan-stats">
