@@ -91,7 +91,6 @@ export function Step3Launch({ state: cs, onDone, onPrev, userId, walletAddr }: P
         description: cs.description,
         imageBase64: cs.imageUrl ?? '',
         imageType:   cs.imageType ?? 'image/png',
-        telegram:    cs.telegram,
       });
       console.log('✅ tokenMint:', tokenInfo.tokenMint);
       console.log('✅ tokenMetadata:', tokenInfo.tokenMetadata);
